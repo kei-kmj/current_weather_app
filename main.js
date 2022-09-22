@@ -3,9 +3,6 @@ require('dotenv').config()
 
 const city = (process.argv[2]) === undefined ? process.env.DEFAULT_CITY : process.argv[2]
 
-// const rainAmount1h = response.data.rain === undefined ? '-' : response.data.rain['1h']
-
-
 axios
   .get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${process.env.API_KEY}&lang=ja`)
   .then((response) => console.log(weather(response)))
