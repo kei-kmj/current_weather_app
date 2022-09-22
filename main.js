@@ -1,5 +1,5 @@
 const request = require("request")
-const dotenv = require("dotenv").config()
+require("dotenv").config()
 
 const city = (process.argv[2]) === undefined ? process.env.DEFAULT_CITY : process.argv[2]
 
