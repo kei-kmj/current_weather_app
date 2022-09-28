@@ -1,4 +1,4 @@
-# weather_app
+# vurrent_weather_app
 Node.jsとopenweathreAPIで都市の天気情報を取得するappです。
 
 # 開発・動作環境
@@ -6,7 +6,7 @@ Node.jsとopenweathreAPIで都市の天気情報を取得するappです。
 - Node: v16.14.2
 
 # install
-$ git clone https://github.com/kei-kmj/weather_app.gi
+$ git clone https://github.com/kei-kmj/current_weather_app.gi
 
 # 環境設定
 コマンドラインから実行するために、以下の設定をします。
