@@ -15,11 +15,11 @@ $ git clone https://github.com/kei-kmj/weather_app.gi
 
 # 使い方
 - `$ node main.js` <br>
-.env`で指定した都市の天気、気温、湿度、風速、過去1時間の降雨量を表示します
+`.env`で指定した都市の天気、気温、湿度、風速、過去1時間の降雨量を表示します
 
 <img width="183" alt="toukyou" src="https://user-images.githubusercontent.com/82737807/191677431-c5e4faa3-4530-41f2-904e-631c0f7fa0c9.png">
 
-- `$ node main.js　都市名` <br>
+- `$ node main.js　naha` <br>
 入力した都市の天気、気温、湿度、風速、過去1時間の降雨量を表示します
 
 
