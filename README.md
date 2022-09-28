@@ -26,4 +26,5 @@ $ git clone https://github.com/kei-kmj/weather_app.gi
 
 <img width="183" alt="那覇" src="https://user-images.githubusercontent.com/82737807/191677445-a973c40d-e608-40b1-846a-6d67859e10dc.png">
 
-
+# ライセンス
+MIT
