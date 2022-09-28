@@ -11,6 +11,6 @@ axios
 function weather (response) {
   const rainAmount1h = response.data.rain === undefined ? '-' : response.data.rain['1h']
 
-  return `現在の${response.data.name}の天気は${response.data['weather'][0]['description']}\n気温：${response.data.main.temp} ℃\n湿度：${response.data.main.humidity} %\n風速：${response.data.wind.speed} m/sec\n過去1時間の降雨量：${rainAmount1h} mm`;
+  return `現在の${response.data.name}の天気は${response.data['weather'][0]['description']}\n気温：${response.data.main.temp} ℃\n湿度：${response.data.main.humidity} %\n風速：${response.data.wind.speed} m/sec\n過去1時間の降雨量：${rainAmount1h} mm`
 }
 
